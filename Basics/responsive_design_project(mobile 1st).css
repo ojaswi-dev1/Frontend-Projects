@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   /* vertically center logo, links, icon */
+    padding: 1rem;
+    background: black;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* make the nav items horizontal */
+.nav-links {
+    display: flex;         /* put list items in a row */
+    gap: 1.5rem;           /* space between items */
+    list-style: none;      /* remove bullets */
+    margin: 0;
+    padding: 0;
+}
+
+/* style the links themselves */
+.nav-links a {
+    color: white;          /* remove default blue color */
+    text-decoration: none; /* remove underline */
+    font-size: 1rem;
+}
+
+.icon {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.sidebar {
+    display: none;
+}
+
+.content {
+    background: #f0f0f0;
+    color: #333;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #bbb;
+    height: 40rem;
+    /* align-items:center; */
+    text-align: center;
+    /* text-justify: inter-word; */
+}
+
+.nav-links {
+    display: flex;          /* Put items in a row */
+    gap: 2rem;              /* Space between them */
+    list-style: none;       /* Remove bullets */
+    align-items: center;    /* Align vertically center */
+}
+
+.nav-links a {
+    color: white;           /* Change link color */
+    text-decoration: none;  /* Remove underline */
+    font-size: 1rem;
+}
+p{
+    padding:10px;
+}
+h1{
+    font-size:100px;
+}
