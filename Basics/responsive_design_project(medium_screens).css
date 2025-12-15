@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: black;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    display: none;
+}
+
+.icon {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.sidebar {
+    display: none;
+}
+
+.content {
+    background: #f0f0f0;
+    color: #333;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #bbb;
+    height: 40rem;
+}
+
+/* For medium screen sizes */
+@media (min-width: 601px) {
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .icon {
+        /* Hides icon from view */
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .sidebar {
+        /* Makes sidebar visible */
+        display: block;
+
+        /* Styling the sidebar */
+        background-color: #222;
+        color: white;
+        padding: 1rem;
+        border-radius: 8px;
+
+        /* Sidebar takes 20% of its parent */
+        width: 20%;
+    }
+
+    .sidebar ul {
+        list-style: none;
+    }
+
+    .sidebar a {
+        color: #ddd;
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        display: block;
+    }
+
+    .sidebar a:hover {
+        color: white;
+    }
+
+    .content {
+        /* Content takes 80% of its parent*/
+        width: 80%;
+    }
+}
+h1{
+    font-size:100px;
+}
