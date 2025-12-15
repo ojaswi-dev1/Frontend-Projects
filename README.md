@@ -22,19 +22,19 @@ A structured page layout implemented using CSS Grid to demonstrate two-dimension
 
 # Tech Stack
 
-HTML5
-CSS3
-Flexbox
-Grid
-Animations & Transitions
-Media Queries
+HTML5<br>
+CSS3<br>
+Flexbox<br>
+Grid<br>
+Animations & Transitions<br>
+Media Queries<br><br>
 
 No external frameworks or libraries are used.
 
 # Objectives
 
-Strengthen core HTML & CSS fundamentals
-Practice layout systems (Flexbox & Grid)
-Build responsive and visually consistent UI
-Develop clean, readable, and reusable CSS
-Maintain professional project documentation
+Strengthen core HTML & CSS fundamentals<br>
+Practice layout systems (Flexbox & Grid)<br>
+Build responsive and visually consistent UI<br>
+Develop clean, readable, and reusable CSS<br>
+Maintain professional project documentation<br>
