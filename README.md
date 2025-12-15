@@ -27,7 +27,7 @@ CSS3<br>
 Flexbox<br>
 Grid<br>
 Animations & Transitions<br>
-Media Queries<br><br>
+Media Queries<br>
 
 No external frameworks or libraries are used.
 
