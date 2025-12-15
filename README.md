@@ -5,19 +5,19 @@ This repository serves as a learning log and portfolio and will be expanded with
 
 # Projects Included
 
-Card Gallery
+Card Gallery\n
 A responsive card-based layout demonstrating content structuring, spacing, and alignment using modern CSS techniques.
 
-Progress Bar Animation
+Progress Bar Animation\n
 Animated progress bars built with pure CSS to showcase transitions, keyframes, and visual feedback patterns.
 
-Responsive Design Project
+Responsive Design Project\n
 A layout designed to adapt seamlessly across different screen sizes using media queries and flexible units.
 
-Wanted Poster
+Wanted Poster\n
 A creative poster-style design focusing on typography, visual hierarchy, and layout composition.
 
-Grid Project
+Grid Project\n
 A structured page layout implemented using CSS Grid to demonstrate two-dimensional layout control.
 
 # Tech Stack
