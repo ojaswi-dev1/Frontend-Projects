@@ -1,1 +1,40 @@
-# Frontend-Projects
+# Front-End Projects (HTML & CSS)
+
+A curated collection of front-end UI projects built using HTML5 and CSS3, focusing on layout fundamentals, visual design, responsiveness, and CSS animations.
+This repository serves as a learning log and portfolio and will be expanded with additional projects over time.
+
+# Projects Included
+
+# Card Gallery
+A responsive card-based layout demonstrating content structuring, spacing, and alignment using modern CSS techniques.
+
+# Progress Bar Animation
+Animated progress bars built with pure CSS to showcase transitions, keyframes, and visual feedback patterns.
+
+# Responsive Design Project
+A layout designed to adapt seamlessly across different screen sizes using media queries and flexible units.
+
+# Wanted Poster
+A creative poster-style design focusing on typography, visual hierarchy, and layout composition.
+
+# Grid Project
+A structured page layout implemented using CSS Grid to demonstrate two-dimensional layout control.
+
+# Tech Stack
+
+HTML5
+CSS3
+Flexbox
+Grid
+Animations & Transitions
+Media Queries
+
+No external frameworks or libraries are used.
+
+# Objectives
+
+Strengthen core HTML & CSS fundamentals
+Practice layout systems (Flexbox & Grid)
+Build responsive and visually consistent UI
+Develop clean, readable, and reusable CSS
+Maintain professional project documentation
