@@ -1,0 +1,67 @@
+/* Import custom font */
+@import url("https://fonts.googleapis.com/css2?family=Euclid+Circular+A:wght@400;500&display=swap");
+
+* {
+    font-family: 'Euclid Circular A', sans-serif;
+    line-height: 1.5;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+/* Style cards */
+.projects-grid > div {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.primary-card {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+/* Flex layout */
+.tech-tag-list {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style tags */
+.tech-tag-list > div {
+    background-color: #f3f3f3;
+    color: #49497e;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    padding: 4px 4px;
+}
+
+/* Style images */
+img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Style headings */
+h3 {
+    color: #25265e;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* Style links */
+a {
+    color: #0556f3;
+    font-weight: medium;
+    text-decoration: none;
+}
